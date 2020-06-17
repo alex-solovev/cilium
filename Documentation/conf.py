@@ -235,9 +235,6 @@ http_strict_mode = False
 # Try as hard as possible to find references
 default_role = 'any'
 
-# Required to fix bug caused by copybutton+docsearch
-copybutton_selector = 'div.highlight pre'
-
 def setup(app):
     app.add_stylesheet('parsed-literal.css')
     app.add_stylesheet('docsearch.min.css')
