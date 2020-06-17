@@ -1,0 +1,19 @@
+{
+  "index_name": "CILIUM_DOCS",
+  "start_urls": [
+    {
+      "url": "https://docs.cilium.io/en/(?P<version>.*?)/",
+      "variables": { "version": ["latest", "stable", "v1.7", "v.1.6", "v1.5"] }
+    }
+  ],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li, .section .code"
+  },
+  "nb_hits": 26728
+}
